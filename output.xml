@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-11-01T11:30:09.178373" rpa="false" schemaversion="5">
+<suite id="s1" name="Preenchimento Correto" source="C:\Users\cristyanbf\Documents\Programação\Quality Assurance\Curso Robot\testes\preenchimento_correto.robot">
+<test id="s1-t1" name="Verificar se ao preencher corretamente o formulário os dados são inseridos corretamente na lista e se um novo card é criado no time escolhido" line="9">
+<kw name="Dado que eu acesse o Organo" type="SETUP">
+<msg time="2024-11-01T11:30:09.275253" level="FAIL">No keyword with name 'Dado que eu acesse o Organo' found.</msg>
+<status status="FAIL" start="2024-11-01T11:30:09.275145" elapsed="0.000225">No keyword with name 'Dado que eu acesse o Organo' found.</status>
+</kw>
+<kw name="Fechar o navegador" type="TEARDOWN">
+<msg time="2024-11-01T11:30:09.277987" level="FAIL">No keyword with name 'Fechar o navegador' found.</msg>
+<status status="FAIL" start="2024-11-01T11:30:09.277839" elapsed="0.000292">No keyword with name 'Fechar o navegador' found.</status>
+</kw>
+<status status="FAIL" start="2024-11-01T11:30:09.271019" elapsed="0.007639">Setup failed:
+No keyword with name 'Dado que eu acesse o Organo' found.
+
+Also teardown failed:
+No keyword with name 'Fechar o navegador' found.</status>
+</test>
+<test id="s1-t2" name="Verificar se é possivel criar mais de um card se preenchermos os campos corretamente" line="14">
+<kw name="Dado que eu acesse o Organo" type="SETUP">
+<msg time="2024-11-01T11:30:09.284098" level="FAIL">No keyword with name 'Dado que eu acesse o Organo' found.</msg>
+<status status="FAIL" start="2024-11-01T11:30:09.284030" elapsed="0.000156">No keyword with name 'Dado que eu acesse o Organo' found.</status>
+</kw>
+<kw name="Fechar o navegador" type="TEARDOWN">
+<msg time="2024-11-01T11:30:09.288870" level="FAIL">No keyword with name 'Fechar o navegador' found.</msg>
+<status status="FAIL" start="2024-11-01T11:30:09.288752" elapsed="0.000261">No keyword with name 'Fechar o navegador' found.</status>
+</kw>
+<status status="FAIL" start="2024-11-01T11:30:09.281879" elapsed="0.007866">Setup failed:
+No keyword with name 'Dado que eu acesse o Organo' found.
+
+Also teardown failed:
+No keyword with name 'Fechar o navegador' found.</status>
+</test>
+<test id="s1-t3" name="Verificar se é possível criar um card para cada time se preenchermos os campos corretamente" line="19">
+<kw name="Dado que eu acesse o Organo" type="SETUP">
+<msg time="2024-11-01T11:30:09.298405" level="FAIL">No keyword with name 'Dado que eu acesse o Organo' found.</msg>
+<status status="FAIL" start="2024-11-01T11:30:09.298283" elapsed="0.000279">No keyword with name 'Dado que eu acesse o Organo' found.</status>
+</kw>
+<kw name="Fechar o navegador" type="TEARDOWN">
+<msg time="2024-11-01T11:30:09.300671" level="FAIL">No keyword with name 'Fechar o navegador' found.</msg>
+<status status="FAIL" start="2024-11-01T11:30:09.300601" elapsed="0.000153">No keyword with name 'Fechar o navegador' found.</status>
+</kw>
+<status status="FAIL" start="2024-11-01T11:30:09.293898" elapsed="0.007272">Setup failed:
+No keyword with name 'Dado que eu acesse o Organo' found.
+
+Also teardown failed:
+No keyword with name 'Fechar o navegador' found.</status>
+</test>
+<status status="FAIL" start="2024-11-01T11:30:09.182413" elapsed="0.123496"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Preenchimento Correto">Preenchimento Correto</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-11-01T11:30:09.268578" level="ERROR">Error in file 'C:\Users\cristyanbf\Documents\Programação\Quality Assurance\Curso Robot\testes\preenchimento_correto.robot' on line 2: Resource file '..\resources\main.robot' does not exist.</msg>
+</errors>
+</robot>
